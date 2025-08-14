@@ -10,7 +10,7 @@ const Sidebar = () => {
   }
   
   return (
-    <div className='w-full px-[32px] shadow-lg'>
+    <div className='w-[200pz] px-[32px] shadow-lg'>
       <div className='w-full'>
         <p>Home</p>
         <p>Shorts</p>
