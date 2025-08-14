@@ -10,15 +10,15 @@ const Sidebar = () => {
   }
   
   return (
-    <div className='grid grid-flow-row gap-1 p-2 shadow-lg'>
-      <div>
+    <div className='w-full px-[32px] shadow-lg'>
+      <div className='w-full'>
         <p>Home</p>
         <p>Shorts</p>
         <p>Videos</p>
         <p>Live</p>
       </div>
 
-      <div>
+      <div className='w-full'>
         <p className='font-bold text-[14px]'>Watch Later</p>
         <p className='text-[14px]'>Music</p>
         <p className='text-[14px]'>Sports</p>
@@ -26,7 +26,7 @@ const Sidebar = () => {
         <p className='text-[14px]'>Movies</p> 
       </div>
 
-      <div>
+      <div className='w-full'>
         <p className='font-bold text-[14px]'>Watch Later</p>
         <p className='text-[14px]'>Music</p>
         <p className='text-[14px]'>Sports</p>
